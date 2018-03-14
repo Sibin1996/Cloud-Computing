@@ -22,7 +22,7 @@ namespace CSharpProgram2
             {
                 Console.WriteLine("The specified directory does not exist. {0}", e);
             }
-            // Print to console the results.
+            
             Console.WriteLine("Root directory: {0}", Directory.GetDirectoryRoot(dir));
             Console.WriteLine("Current directory: {0}", Directory.GetCurrentDirectory());
         }
